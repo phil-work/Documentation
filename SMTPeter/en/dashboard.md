@@ -6,7 +6,7 @@ SMTPeter has an extensive dashboard where you can configure your settings
 and obtain statistics and other information about your account. This is
 also the place where you can create email templates.
 
-The dashboard speaks by itself, but here are some of the functions and 
+The dashboard speaks for itself, but here are some of the functions and 
 overviews you can find in the dashboard:
 
 * [Configure sender domains](./introduction-sender-domains)
