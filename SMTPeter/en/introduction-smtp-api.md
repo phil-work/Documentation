@@ -5,7 +5,7 @@ best used when connecting to traditional email clients such as Outlook and Thund
 with mobile devices. 
 
 In order to use the SMTP API, you must create a valid username and password in the application. Remember 
-these well, because you will only see them once! Subsequently you can send mails via SMTP to SMTPeter.
+these well, because you will only see them once! You can then send mails via SMTP to SMTPeter.
 The SMTP settings that you will need can be found [here](smtp-ports). You can also read the
 [general SMTP API documentation](smtp-api) if you want to know more.
 
