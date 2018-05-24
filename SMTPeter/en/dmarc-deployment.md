@@ -6,7 +6,7 @@ or whether it was faked: DMARC. DMARC was invented to solve some shortcomings
 of DKIM and SPF.
 
 To understand DMARC, one must realize that new features in email are always   
-_optional_. Email has been around for ages, and new technologies may not 
+_optional_. Email has been around for ages, and new technologies must not 
 break existing email software. This means that even though DKIM and SPF 
 were invented to make email more secure, it still is perfectly legal to 
 send emails _without_ DKIM signatures and to send email from servers 
@@ -98,7 +98,7 @@ mail is put in a special folder, generally the spam folder. The last
 policy, reject, is the most strict, and blocks the delivery for messages
 with wrong DKIM signatures or that were sent from IP addresses not listed in SPF.
 
-Besides setting the policy, DMARC also allows you to set a percentage. Say, 
+Besides setting the policy, DMARC also allows you to set a percentage. Say 
 you set your policy to "reject" and the percentage to "25". This means that
 only 25% of the mails that fail the DKIM and/or SPF checks are blocked,
 and that the remaining 75 percent is still accepted. This percentage setting allows
