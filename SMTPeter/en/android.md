@@ -24,7 +24,7 @@ Here you have to fill out our SMTP settings username and password:
 
 Now you have set up SMTPeter as the SMTP server for the account you have selected
 
-And that's all the configuration you have to do! 
+That's all the configuration you have to do! 
 
 ## More information
 
