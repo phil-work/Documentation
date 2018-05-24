@@ -16,7 +16,7 @@ Bye!
 ````
 
 Besides calling one modifier on a variable it is possible to chain modifiers.
-E.g. you have name data. However, the strings containing names, are sometimes
+E.g. you have name data. However, the strings containing names are sometimes
 capitalized and sometimes not. You want to use these names and you want to
 be sure that a name starts with a capital and the rest of the name is in
 lower case. Doing this is easy. You use `{$name|tolower|ucfirst}`. The first
