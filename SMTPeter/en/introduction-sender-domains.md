@@ -5,7 +5,7 @@ to send your emails. We call this domain the *sender domain* and it can
 be configured via the [dashboard](dashboard) in the sender domain module. 
 This module can be found under the sender domains tab in the application. 
 The interface speaks for itself: click on `Add sender domain` and follow 
-the steps. Don’t worry about your click- and tracking domains or the DMARC
+the steps. Don’t worry about your click-and-tracking domains or the DMARC
 deployment, you can always edit them later on. You can consult the article 
 on [sender domains](./sender-domains) for more information.
 
