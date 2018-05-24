@@ -16,7 +16,7 @@ The following methods are accessible via HTTP GET, POST and DELETE:
 | GET            | www.smtpeter.com/v1/dmarc            | Retrieve all dates with available DMARC reports        |
 | GET            | www.smtpeter.com/v1/dns              | Proposed DNS record for a certain domain               |
 | GET            | www.smtpeter.com/v1/domain           | Request specific sender domain                         |
-| GET            | www.smtpeter.com/v1/domains          | Request all sender sender domain                       |
+| GET            | www.smtpeter.com/v1/domains          | Request all sender domains                       |
 | GET            | www.smtpeter.com/v1/embeds           | List of all embedded files + content id (cid)          |
 | GET            | www.smtpeter.com/v1/envelope         | Request used envelope address for specific message id  |
 | GET            | www.smtpeter.com/v1/events           | Request events                                         |
