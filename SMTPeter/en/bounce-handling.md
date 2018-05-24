@@ -1,8 +1,8 @@
 # Bounce handling
 
-When you send out email, you receive all sorts of bounce messages too.
+When you send out email, you also receive all sorts of bounce messages.
 Amongst these messages are delivery status notifications for addresses that
-no longer exists, out-of-office replies from people who are on holiday,
+no longer exist, out-of-office replies from people who are on holiday,
 confirmation messages ("thank you for your email") and all sort of 
 other automatically generated replies.
 
@@ -16,15 +16,15 @@ When you submit email - either via the [SMTP API](smtp-api) or the
 [REST API](rest-api) - you optionally supply an "envelope" address. This
 is the address to which all bounce messages are going to be delivered. 
 This envelope address is not the same as the "from" address. The 
-from address is the visible sender address of the user, that is used 
+from address is the visible sender address of the user that is used 
 when someone hits the reply button. The "envelope" address on the other
 hand is normally not visible and is used by mail servers for bounces 
 and other types of _automated_ replies.
 
 If you're not interested in bounce messages and other automatic replies, 
 life is easy: just don't supply an envelope address. If you send your 
-messages without an envelope address there is no way how bounce messages 
-could ever end up back in your mailbox. Manual replies (when someone actively 
+messages without an envelope address there is no way for bounce messages 
+to ever end up back in your mailbox. Manual replies (when someone actively 
 presses the reply button) are of course still possible, because your mail 
 will still have a valid "from" address.
 
@@ -48,7 +48,7 @@ As you see in the above example, submitting an empty envelope address
 
 ## Bounce tracking
 
-If you _do_ supply an envelope address, you apparently are interested
+If you _do_ supply an envelope address, apparently you are interested
 in getting bounce information. But even then you can instruct SMTPeter how to intercept 
 and handle them.
 
@@ -82,13 +82,13 @@ with these credentials will then have this feature turned on.
 
 ## Delivery Status Notifications
 
-A special type of bounce messages are Delivery Status Notifications,
-(in short: DSN's). Unlike many out-of-office replies and other type of
-bounces that are difficult to recognize for computers DSN's are 
+Delivery Status Notifications (DSN's) are a special type of bounce messages. 
+Unlike many out-of-office replies and other type of
+bounces that are difficult to recognize for computers, DSN's are 
 standardized automatically generated notifications that can be processed 
 by mail servers. SMTPeter recognizes these type of bounces too and logs 
 the reported errors. Because SMTPeter already recognizes such messages, 
-you may instruct SMTPeter to not forward these DNS's and only pass on 
+you may instruct SMTPeter to not forward these DSN's and only pass on 
 the bounces that could not be recognized. 
 
 The SMTP protocol has a special DSN extension that allows just this. When
