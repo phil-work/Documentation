@@ -26,11 +26,11 @@ use for personalizing your mail. An example of this is:
 ```
 You can use {$firstname} to access "John", {$familyname} to access "Doe",
 and with {$children} you get an array containing "Jane", "Joe", "Jacky",
-and "Josef" (see our [programming page](personalization) to for a complete
+and "Josef" (see our [programming page](personalization) too for a complete
 discussion about using variables and programming). You can use these variables
 in the "from" and "to" address, the header, the text, and the html fields or
-in the "mime". For ease of use you get automatically the "envelope" and
-"recipient" variables that contain data extracted from the. So, you can
+in the "mime". For ease of use you automatically get the "envelope" and
+"recipient" variables that contain data extracted from the mail. This means you can
 use these without specifying them as a data property.
 
 
@@ -75,10 +75,10 @@ as a data property.
 Passing the personal data is very flexible, yet, there are some requirements
 about the property names you can pass as data. The requirements are:
 
-* They may contain alphanumeric characters but may not start with a number.
+* They may contain alphanumeric characters but must not start with a number.
 * They may contain dash (-) and underscore (_) symbols. 
-* They may not start with a dash or underscore. 
-* variables are case sensitive, meaning that {$NAME} is different from {$name}.
+* They must not start with a dash or underscore. 
+* Variables are case sensitive, meaning that {$NAME} is different from {$name}.
 
 
 ## A simple example
