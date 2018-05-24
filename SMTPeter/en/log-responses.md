@@ -2,7 +2,7 @@
 
 Log files with the prefix "responses" hold information about the responses
 that your sent e-mail generated that are not bounces. An example of such a
-response is an automatic out-of-office-reply. You can download the content
+response is an automatic out-of-office reply. You can download the content
 of these files in CSV, JSON, and XML format using the [REST logfiles API](rest-logfiles)
 or the dashboard. These log files contain the following data in the
 respective order:
