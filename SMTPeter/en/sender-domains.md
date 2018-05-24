@@ -1,14 +1,14 @@
 # Sender domains
 
 SMTPeter uses the concept of "Sender Domains" to simplify email. 
-At all services that Copernica offers, it is **mandatory** to use
-sender domains. This allows you to send your email through our servers 
+It is **mandatory** to use
+sender domains in all services that Copernica offers. This allows you to send your email through our servers 
 without having to worry about complicated things like SPF, DKIM and DMARC. 
 You focus on your business, while we take care of your messages.
 
-But what exactly do we mean with a sender domain? It works pretty neat: 
-you open the SMTPeter dashboard to specify from which domains you intend 
-to send email, and we tell you how you should configure your DNS. The
+But what exactly do we mean with a sender domain? It works pretty neatly: 
+you open the SMTPeter dashboard to specify which domains you intend 
+to send email from, and we tell you how you should configure your DNS. The
 "sender domain" is the domain name that you are going to use for your
 mails.
 
@@ -20,7 +20,7 @@ DNS records. You copy these records to your DNS server (or give them to your
 DNS provider) and that's basically all there is to it: after you've followed 
 our recommendations you can use SMTPeter to send email.
 
-## A little more details
+## A few more details
 
 Lets be honest here. Sending email is getting more and more complicated. 
 There are a lot of things to care about: you have to set up SPF records in 
