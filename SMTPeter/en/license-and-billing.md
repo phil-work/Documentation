@@ -21,7 +21,7 @@ long as your balance is high enough to support the amount of emails you
 want to send (e.g. if your balance allows for 100.000 emails and you want
 to send 100.001 emails, you will have to increase your balance). You only 
 pay for the amount of emails that you have sent in a month. So, if you 
-happen to have sent less emails in a month, your credit will be passed to 
+happen to have sent fewer emails in a month, your credit will be passed to 
 the next month. The price per sent email decreases with the amount of sent 
 emails. This discount will be calculated automatically. For the exact prices 
 you can visit our [homepage](https://www.smtpeter.com/en) and scroll to 
@@ -41,5 +41,5 @@ call at +31 (0)20 520 61 90.
 
 The post payment method means you will be invoiced
 for the amount of emails you have sent at the end of each month. Of course the same
-discounts as in the pay-as-you go payment system apply for the post payment system. 
+discounts as in the pay-as-you-go payment system apply for the post payment system. 
 This invoice has to be paid within two weeks of the invoice date. 
