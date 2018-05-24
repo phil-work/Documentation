@@ -48,7 +48,7 @@ SMTP API. The first one is to go to the SMTPeter dashboard and
 [create a new SMTP login](dashboard/smtp-credentials) that has this
 feature enabled.
 
-As you know, the SMTP protocol does not easily allow to pass parameters 
+As you know, the SMTP protocol does not easily allow passing parameters 
 with each message. To overcome this, we allow you to create many different 
 SMTP logins, each one with different features enabled. If you
 want to automatically inlinize CSS, you just have to create a login with
