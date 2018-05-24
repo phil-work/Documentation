@@ -11,7 +11,7 @@ etc. You can read more about them in [this article](./webhooks).
 
 ## Changes with the new name
 
-Of course you know what changes for you, besides the new name. You can 
+Of course you want to know what changes for you, besides the new name. You can 
 configure WebHooks with an API call or within the software. In the software 
 nothing will change and all of your previous WebHooks will work like you 
 are used to. In the API there are two calls related to the name "Feedback 
